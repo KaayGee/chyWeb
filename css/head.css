@@ -1,0 +1,456 @@
+.maindiv{
+	width: 100%;
+	margin: auto;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Navbar Styling starts here */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar-logo{
+  width: 40%;
+}
+
+.navbar-ul{
+  width: 60%;
+  list-style-type: none;
+margin-top: 30px;
+}
+.navbar-ul li{
+  display: inline;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #707070;
+}
+
+.navbar-ul li:hover{
+  color: #222;
+  cursor: pointer;
+}
+/* Navbar Styling ends here */
+
+.clients{
+	font-size: 50px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  padding-right: 10px;
+  
+}
+.clients:hover{
+	transform: scale(2.0);
+}
+.col:hover{
+text-decoration: none;
+color: white;
+font-size: 18px;
+}
+
+
+.active {
+	background-color: blue;
+}
+/* .footpage{
+	margin-top: 50px;
+    bottom: 0;
+    width: 100%; */
+
+
+
+.fa {
+  /*padding: 2px;*/
+  font-size: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  /*margin: 2px 2px;*/
+  border: solid red;
+  border-radius: 8px;
+  background-color: red;
+  
+  }
+/* .contactdiv {
+	text-align: center;
+border: 4px solid gray;
+border-collapse: 45px;
+background-color: black;
+} */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+/*.formc{
+	width: 600px;
+	font-size: 12px;
+	border: solid black;
+	background-color: white;
+	margin: 50px 300px 10px 250px;
+	padding: 20px 50px 50px 50px;
+}*/
+/* {box-sizing: border-box;}*/
+
+
+/* Section Two Styling starts here */
+
+.container-about {
+  background-color: #FFFFFF;
+  width: 70%;
+}
+.container-about h1{
+text-align: left;
+padding: 50px 20px 0px 80px;
+box-sizing: border-box;
+font-size: 28px;
+font-family: 'Mulish', sans-serif;
+font-weight: 600;
+color: #707070;
+}
+.container-about p{
+  text-align: left;
+  padding: 0px 20px 70px 80px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Mulish', sans-serif;
+  color: #707070;
+}
+/* Section Two Styling ends here */
+
+
+/* Section Three Styling starts here */
+.details{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF692265;
+  margin: auto;
+}
+.mission{
+  width: 100%;
+  padding: 50px;
+}
+.founder{
+  width: 100%;
+  padding: 50px;
+}
+.vision{
+  width: 100%;
+  padding: 50px;
+}
+
+.mission h1{
+  text-align: left;
+  margin-top: 50px;
+  box-sizing: border-box;
+  font-size: 28px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+
+.mission p{
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Mulish', sans-serif;
+  color: #707070;
+}
+
+.founder h1{
+  text-align: center;
+  margin-top: 2px;
+  box-sizing: border-box;
+  font-size: 28px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+
+.founder p{
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Mulish', sans-serif;
+  color: #707070;
+}
+
+.founder-img{
+  border-radius: 50%; 
+  height: 170px;
+   width: 180px; 
+   margin-top: 50px;
+}
+
+.vision h1{
+  text-align: left;
+  margin-top: 58px;
+  padding: 50px 60px 0px 5px;
+  box-sizing: border-box;
+  font-size: 28px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+
+.vision p{
+  text-align: left;
+  padding: 0px 60px 50px 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Mulish', sans-serif;
+  color: #707070;
+}
+/* Section Three Styling ends here */
+
+
+/* Section Four Styling starts here */
+.support{
+  background-color: #FFFFFF;
+  width: 50%;
+}
+
+.support h1{
+  text-align: left;
+  padding: 50px 20px 0px 80px;
+  box-sizing: border-box;
+  font-size: 28px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+.support p{
+  text-align: left;
+  display: block;
+  padding: 0px 20px 0px 80px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Mulish', sans-serif;
+  color: #707070;
+}
+.btn-facebook{
+  width: 170px;
+  height: 30px;
+  padding: 2px 8px;
+  box-sizing: border-box;
+  margin: 15px 300px 70px 2px;
+  background-color: #1977F2;
+  color: white;
+  border: #1977F2;
+  border-radius: 5px;
+}
+.btn-facebook a{
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Section Four Styling ends here */
+
+/* Section Five Styling starts here */
+.wrapper-contact{
+  /* display: flex;
+  justify-content: center; */
+
+  height: 100%;
+  margin: auto;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 12px #00000029;
+  border-radius: 5px;
+  opacity: 1;
+}
+.container-contact{
+  width: 80%;
+ 
+}
+.contact-us{
+  text-align: center;
+  margin-top: 20px;
+  box-sizing: border-box;
+  font-size: 28px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 7px 30px 7px 5px;
+  border: 1px solid #C4C4C4;
+  color: #B5B5B5;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 10px auto 15px;
+}
+
+input[type=submit] {
+  background-color: #707070;
+  color: white;
+  padding: 7px 70px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+input[type=submit]:hover {
+  background-color: #B5B5B5;
+  color: #222;
+}
+
+.fullname{
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+.email{
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+.phone-number{
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+.country{
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+.message{
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  color: #707070;
+}
+/* Section Five Styling ends here */
+
+/* Footer Styling  */
+.ftclass{
+  width: 100%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #EBEBEB;
+  opacity: 1;
+	color: #707070;
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+  padding: 20px;
+	
+}
+ 
+  
+
+
+
+
+/*GALLERY CSS STARTS HERE*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  
+  margin-top: 8px;
+  position: relative;
+  /* padding: 20px 20px 20px 20px; */
+  width: 87%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 40px;
+  /*padding: 8px 12px;*/
+  position: relative;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  
+  float: left;
+  width: 24.99%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
